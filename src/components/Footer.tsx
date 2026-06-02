@@ -35,7 +35,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8">
           <div className="lg:col-span-4">
             <Link to="/" className="flex items-center gap-3 mb-6">
-              <img src="/kasirkas-logo.png" alt="KasirKas" className="h-10 w-auto" />
+              <img src="/kasirkas-logo.png" alt="KasirKas" className="h-20 w-auto" />
             </Link>
             <p className="text-sm text-[#64748b] leading-relaxed mb-6 max-w-xs">
               Aplikasi kasir POS modern untuk bisnis ritel, F&B, dan layanan. Kelola transaksi, stok, dan laporan dalam satu platform.

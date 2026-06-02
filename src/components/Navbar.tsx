@@ -39,9 +39,9 @@ export default function Navbar() {
         scrolled ? 'bg-white/95 backdrop-blur-xl shadow-sm border-b border-[#e2e8f0]' : 'bg-transparent'
       }`}>
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16 lg:h-20">
+          <div className="flex items-center justify-between h-16 lg:h-32">
             <Link to="/" className="flex items-center gap-3 shrink-0">
-              <img src="/kasirkas-logo.png" alt="KasirKas" className="h-9 w-auto" />
+              <img src="/kasirkas-logo.png" alt="KasirKas" className="h-20 w-auto" />
             </Link>
             <div className="hidden lg:flex items-center gap-1">
               {navLinks.map((link) => (
